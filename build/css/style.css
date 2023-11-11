@@ -11855,5 +11855,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.header .logo {
+  width: 10rem;
+}
 
 /*# sourceMappingURL=style.css.map */
