@@ -3,12 +3,19 @@
 $rojo: #F34F51;
 $verde: #0098AE;
 $oscuro: #212121;
+$gris: #B5B5B5B5;
 
 // Asignar paleta de colores a bootstrap
 
 $primary: $rojo;
 $secondary: $verde;
 $dark: $oscuro;
+
+// Nav Link
+
+$nav-link-padding-x: 0;
+$nav-link-color: $gris;
+$nav-link-hover-color: darken($gris, 10%);
 
 // Cards
 
