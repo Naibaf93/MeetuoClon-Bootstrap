@@ -4,11 +4,15 @@ $rojo: #F34F51;
 $verde: #0098AE;
 $oscuro: #212121;
 
-//Asignar paleta de colores a bootstrap
+// Asignar paleta de colores a bootstrap
 
 $primary: $rojo;
 $secondary: $verde;
 $dark: $oscuro;
+
+// Cards
+
+$card-border-color: transparent;
 
 // Importar Bootstrap
 
