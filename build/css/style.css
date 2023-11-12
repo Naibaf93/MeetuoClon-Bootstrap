@@ -11865,7 +11865,8 @@ textarea.form-control-lg {
     padding-bottom: 10rem;
   }
 }
-.header .logo {
+
+.logo {
   width: 10rem;
 }
 
@@ -11877,6 +11878,25 @@ textarea.form-control-lg {
 }
 .eventos .card .fecha {
   color: #877457;
+}
+
+.tiendas .app-img-1 {
+  transition: transform 0.3s ease-in-out;
+}
+.tiendas .app-img-1:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+.tiendas .app-img-2 {
+  transition: transform 0.3s ease-in-out;
+}
+.tiendas .app-img-2:hover {
+  transform: rotate(-15deg) scale(1.2);
+}
+.tiendas .img-tienda {
+  transition: transform 0.3s ease-in-out;
+}
+.tiendas .img-tienda:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */

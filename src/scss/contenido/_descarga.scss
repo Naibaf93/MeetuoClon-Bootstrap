@@ -1,0 +1,22 @@
+.tiendas {
+    .app-img-1 {
+        transition: transform .3s ease-in-out;
+        &:hover {
+            transform: rotate(15deg) scale(1.2);
+        }
+    }
+
+    .app-img-2 {
+        transition: transform .3s ease-in-out;
+        &:hover {
+            transform: rotate(-15deg) scale(1.2);
+        }
+    }
+
+    .img-tienda {
+        transition: transform .3s ease-in-out;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
